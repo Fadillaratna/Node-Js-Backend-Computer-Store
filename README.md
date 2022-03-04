@@ -8,7 +8,7 @@ Rest API CRUD and settings sequelize using `Node Js & Postman`
   <li>CRUD Admin.</li>
   <li>CRUD Customer.</li>
   <li>CRUD Product.</li>
-  <li>AUTH (Authentication dan Authorization) with `md5 jsonwebtoken`</li>
+  <li>AUTH (Authentication dan Authorization) with <strong> md5 jsonwebtoken.</strong> </li>
   <li>Transaction.</li>
 </ul>
 
