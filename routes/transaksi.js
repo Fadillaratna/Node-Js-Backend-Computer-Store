@@ -91,6 +91,7 @@ app.post("/", async (req, res) =>{
 
 app.delete("/:transaksi_id", async (req, res) =>{
     let param = { transaksi_id: req.params.transaksi_id}
+    
     try {
         await detail_transaksi.destroy({where: param})
         await transaksi.destroy({where: param})
